@@ -1,0 +1,18 @@
+ul{
+         /*retirar marcador*/
+    list-style-type: none;
+}
+ol{
+         /*mudar marcador romano*/
+    list-style-type: upper-roman;
+}
+.marcadorimagem{
+    /*mudar marcador romano*/
+list-style-image: url("img/m2.png");
+
+margin:0;
+padding: 40px;
+background-color: blueviolet;
+/*altura*/
+
+}

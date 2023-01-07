@@ -1,0 +1,75 @@
+/*cor de fundo:*/
+*{
+    background-color: coral;
+}
+/*classe:*/
+.Paragrafo{
+    color:red;
+    }
+    /*id:*/
+    #idexemplo{
+         /*vermelho,verde,blue:*/
+        background-color:rgb(131,111,255);
+        }
+        .um{
+            width: 80px;
+            height: 70px;
+              /*margem esquerda*/
+            margin-left: 100px;
+            margin-top: 100px;
+        background-color: darkred;
+        
+        }
+        .dois{
+               /*largura*/
+            width: 80px;
+               /*altura*/
+            height: 70px;
+            margin-left:0px;
+            margin-top: 100px;
+        background-color: darkred;
+        }
+        .tres{
+            width: 80px;
+              /*altura*/
+            height: 70px;
+        margin: 0;
+
+    background-color: rgb(65, 48, 48);
+        }
+.quatro{ 
+        width: 80px;
+            height: 70px;
+            margin-left:-10px;
+          
+ 
+    background-color: blue;
+}
+.cinco{
+      position: relative;
+    float: left;
+    width: 80px;
+        height: 70px;
+    margin: 0;
+padding: 0;
+background-color: rgb(65, 48, 48);
+}
+/*Padding=Para denro e margin=para fora:*/
+.seis{ 
+    width: 80px;
+        height: 70px;
+        margin-left:70px;
+      padding-left:10px;
+
+background-color: blue;
+}   
+.sete{ 
+     width: 103%;
+        height: 40px;
+ 
+    margin:-10px;
+
+background-color: blue;
+}
+
+  

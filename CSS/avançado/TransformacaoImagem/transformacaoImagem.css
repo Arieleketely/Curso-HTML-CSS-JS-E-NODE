@@ -1,0 +1,29 @@
+img,.rodarparaesquerda{
+    width: 420px;
+    transform:rotate(450Deg);
+}
+img,.rodarparadireita{
+    width: 420px;
+    transform:rotate(-450Deg);
+}
+img,.dobrartamanho{
+    width: 420px;
+    transform:scale(2,1);
+}
+img,.dobrartamanhodois{
+    width: 420px;
+    transform:scale(2);
+}
+
+img,.dobrartamanho45{
+    width: 420px;
+    transform:scale(45deg,30dec);
+}
+img,.dobrartamanho45dois{
+    width: 420px;
+    transform:scale(45deg,30dec);
+}
+img,.dobrartamanho45tres{
+    width: 420px;
+    transform:skew(30deg,30deg) scale(0.7,1);
+}

@@ -1,0 +1,36 @@
+  /*modificando parte de lguns elementos*/
+
+
+
+    /*cor somente na primeira linha*/
+  p::first-line{
+      color:red;
+  }
+  li{
+     margin-left: 200px;
+     list-style-image: url(./Piano.jpg);
+  }
+    /*colocando A no item*/
+/*
+    li::before{
+        content: "A";
+        color:blue;
+        font-size: 20px;
+    }
+    */
+
+    li::after{
+      content: '';
+      display:"inline-block";
+      width:3px;
+      height: 3px;
+      background-image:url("./Piano.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+     
+  }
+  p::selection{
+    background-color: yellow;
+    color:tomato;
+  }

@@ -1,0 +1,278 @@
+
+/*coloca em linha*/ 
+/*display*/ 
+
+.flex {
+	display: flex;
+
+	margin:10px;
+}
+
+
+
+
+a{
+	margin:5px;
+
+}
+/*caso o lococar em linha não cabeber na tela coloca o promimo abaixo*/ 
+.container,img{
+	flex-wrap: wrap;
+}
+.container {
+
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+
+
+/*Flex direction e flex wrap*/ 
+
+
+
+.containerum{
+
+		max-width: 400px;
+		margin: 0 auto;
+		display: flex;
+		background-color:blue;
+		border-radius:2px;
+		border: 1px solid #ccc;
+	
+}
+.row-reverse {
+	flex-direction: row-reverse;
+	/*outras opçoes seriam Column,column-reverse e row*/
+}
+.row{
+	flex-direction: row;	
+}
+.column{
+	flex-direction: Column;	
+}
+.column-reverse{
+	flex-direction:column-reverse;	
+}
+
+p{
+	font-size:40px;
+	font-weight: bold;
+}
+
+
+/*Flex flow*/ 
+
+
+
+
+.row-nowrap {
+	flex-flow: row nowrap;
+}
+.column-nowrap {
+	flex-flow: column nowrap;
+}
+.row-wrap {
+	flex-flow: row wrap;
+}
+
+
+/*align-items*/ 
+
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+/*Justify content*/ 
+
+.stretch {
+	align-items: stretch;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.flex-end {
+	align-items: flex-end;
+}
+
+.center {
+	align-items: center;
+}
+
+.baseline {
+	align-items: baseline;
+}
+
+
+
+/* Os itens não se expandem para ocupar o container. */
+/* Os itens não se expandem para ocupar o container. */
+.grow0 {
+	flex-grow: 0;
+}
+.grow1{
+	flex-grow: 1;
+}
+
+
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+.container3{
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+.container4{
+max-width: 400px;
+margin: 0 auto;
+display: flex;
+border: 1px solid #ccc;
+}
+
+
+.basis-auto {
+	flex-grow: 1;
+	flex-basis: auto;
+}
+
+/*
+retirado de https://origamid.com/projetos/flexbox-guia-completo/
+
+
+flex-basis: auto;
+ Esse é o padrão, ele faz com que a largura da base seja igual a 
+do item. 
+Se o item não tiver tamanho especificado,
+ o tamanho será de acordo com o conteúdo.
+
+
+
+flex-basis: unidade;
+Pode ser em %, em, px e etc.
+
+
+flex-basis: 0;
+
+
+Se o grow for igual ou maior que 1, ele irá tentar
+manter todos os elementos com a mesma largura, 
+independente do conteúdo (por isso 0 é o valor mais comum do flex-basis). 
+Caso contrário o item terá a largura do seu conteúdo.*/
+
+.basis-auto-grow-2 {
+	flex-grow: 2;
+	flex-basis: auto;
+}
+.basis-auto-width {
+	flex-grow: 1;
+	flex-basis: auto;
+	width: 60px;
+}
+.basis-0-grow-0 {
+	flex-basis: 0;
+}
+.flex-basis{
+	flex-basis: 20px;
+}
+
+
+
+
+/* flex-shrink: 1;
+
+Valor padrão, permite que os itens tenham
+ os seus tamanhos (seja esse tamanho definido
+ a partir de width ou flex-basis) reduzidos para 
+ caber no container.
+
+ flex-shrink: 0;
+ Não permite a diminuição dos itens, assim um item com flex-basis: 300px; nunca diminuirá menos do que 300px, mesmo que o conteúdo não ocupe todo esse espaço.
+flex-shrink: número;
+
+Um item com shrink: 3 diminuirá 3 vezes mais que um item com 1.
+*/
+.container5 {
+	display: flex;
+	width: 500px;
+  }
+  
+.container5 div {
+	flex-basis: 120px;
+	border: 3px solid rgba(0,0,0,.2);
+  }
+.box1 {
+	flex-shrink: 1;
+  }
+  
+  .box2 {
+	flex-shrink: 2;
+  }
+
+  /* flex-order*/
+
+  .order1 {
+	order: 1;
+}
+
+.order2 {
+	order: 2;
+}
+
+.order3 {
+	order: 3;
+}
+
+.order4 {
+	order: 4;
+}
+
+.order-1 {
+	order: -1;
+}
+
+
+.itemsobre {
+	flex: 1;
+	margin: 5px;
+	padding: 0 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.item:first-child {
+	padding-top: 20px;
+}
+
+/* Flex Container */
+.containersobre {
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+

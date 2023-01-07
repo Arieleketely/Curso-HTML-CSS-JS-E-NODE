@@ -1,0 +1,10 @@
+body {
+      /*cor de fundo*/
+    background-color: blue; 
+} 
+h1 { 
+      /*cor de letra*/
+    color: red; 
+      /*para dentro*/
+    padding: 60px; 
+}

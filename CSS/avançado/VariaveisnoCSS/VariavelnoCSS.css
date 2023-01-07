@@ -1,0 +1,29 @@
+:root{
+    --var_color:aqua;
+    --square-size:200px;
+}
+
+.p1{
+    color:aqua;
+    font-size: 25px;
+}
+
+.p2{
+    color:var(--var_color);
+    font-size: 25px;
+}
+
+.p3{
+    color:var(--var_color);
+    font-size: 25px;
+}
+.sqr1{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: yellowgreen;
+}
+.sqr2{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: turquoise;
+}

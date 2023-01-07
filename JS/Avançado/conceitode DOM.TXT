@@ -1,0 +1,14 @@
+Trabalha com documentos HTML, XML,JS e SVG 
+
+Apresenta as informações em formato de árvore definindo os 
+métodos que tem acesso a essa árvore com isso
+vai alterando as informações na árvore.
+
+
+Com essa árvore conseguimos ter acesso aos documentos tendo acesso aos métodos que permitem acessar acessar
+os elementos da árvore.Sendo que o DOM faz cópia do HTML podendo alterar o HTML podendo também manipular animações .
+
+Um elemento fica dentro do outro uma tag html por exemplo pode ter outra dentro SENDO O DOMUMA FORMA DEFINIDA PADRÃO DE DESENVOLVIMENTO WEB
+
+
+

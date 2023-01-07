@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //grava dado na memoria do navegador
+//localStorage.setItem("nome","Ariele");
+//busca dados na memoria do navegador que ja foram passados
+//let n=localStorage.getItem("nome");
+//console.log(n)
+//apaga dados da memoria do navegador
+//localStorage.removeItem("nome");</head>
+ //onload pega o filho
+onload = function(){
+       //grava dado na memoria do navegador
+    let nome= localStorage.getItem("nome");
+        //retorna o elemento do id
+    let h1= document.getElementById("nome");
+ h1.innerHTML= nome;
+}
+function atualizar(element){
+
+    let valor=element.value;
+    console.log(valor)
+
+
+    let h1=document.getElementById("nome");
+    h1.innerHTML=valor;
+
+    localStorage.setItem("nome",valor)
+}
+
+
+    </script>
+
+<body>
+    <h1 id="nome"></h1>
+    <input type="text" oninput="atualizar(this)">
+
+   
+</body>
+</html>

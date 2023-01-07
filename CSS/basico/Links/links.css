@@ -1,0 +1,46 @@
+.links{
+      /*retirar sublinhado*/
+    text-decoration:none;
+     /*cor de fonte*/ 
+    color:red;
+      /*mudar cursor*/
+      cursor:crosshair;
+        /*escolhendo  de fundo*/
+      background:blue;
+      padding:10px;
+      padding-top:10px;
+      padding-bottom:5px;
+      border-radius:10px;
+      border:2px solid green;
+
+}
+  /*com mause com cima*/
+.links:hover{
+      /*retirar sublinhado*/
+    text-decoration:none;
+     /*cor de fonte*/ 
+    color:red;
+      /*mudar cursor*/
+      cursor:crosshair;
+       
+      background:yellow;
+     
+
+}
+li{
+  margin-top:20px;
+     /*retirar marcador*/
+     list-style-type: none;
+}
+.links:active{
+      /*retirar sublinhado*/
+    text-decoration:none;
+     /*cor de fonte*/ 
+    color:red;
+      /*mudar cursor*/
+      cursor:crosshair;
+       
+      background:#ff11;
+     
+
+}

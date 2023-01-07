@@ -1,0 +1,49 @@
+/*
+*{
+    color:darkgreen;
+}
+*/
+
+
+
+
+div{
+    background-color: brown;
+}
+header{
+    background-color: coral;
+}
+
+div , header{
+color:gold;
+}
+
+/*  pegar elementos p filhos de header */
+header > p{
+
+    font-family:Times,Helvetica,Arial, sans-serif;
+
+}
+
+
+/*  pegar elementos p após header */
+header + p{
+
+    color:darkorchid;
+
+}
+/*  pegar todo elementos p antes do  header */
+header ~ p{
+
+    color:deepskyblue;
+
+}
+/*  usr atribulo como seletor-width se ele for 500 */
+
+[width="200"]{
+font-size: 40px;
+}
+
+[title="titulo"]{
+    font-size: 4rem;
+    }

@@ -1,0 +1,11 @@
+p{
+           /*escolhendo tipo de fonte*/
+           font-family:Times,Helvetica,Arial, sans-serif;
+             /*escolhendo estilo*/
+           font-style:normal;
+         
+           /*escolhendo tamanho*/
+           font-weight:700;
+           
+           font-variant:small-caps;
+}

@@ -1,0 +1,26 @@
+.container{
+    /*alterar filhos da div trocando o
+     dissplay de block que é o original par flex
+    assim os filhos podem ser alterados*/
+    display:flex;
+
+       /*definir se é coluna ou linha*/
+   flex-direction:column;
+    background-color: turquoise;
+    height:400px;
+    color: white;
+}
+.p1{
+background-color: violet;
+}
+
+.p2{
+    background-color:yellow;
+    }
+
+    .p3{
+        background-color:teal;
+        }
+        .parte{
+
+        }

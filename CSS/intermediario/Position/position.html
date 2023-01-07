@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="listas.css" />
+</head>
+<body>
+    <body>
+       <style>
+           body{
+               font-size: 1.2rem;
+
+           }
+           .static{
+               position: static;
+               left:20px;
+           }
+           .relative{
+    position:relative;
+          /*left,right,top e botom uncionam se for relative*/
+    right:-90px;
+
+    
+}
+.fixed{
+    position:fixed;
+    width: 20px;
+               height: 20px;
+}
+           .quadrado{
+            width: 100px;
+               height: 100px;
+               display:inline-block;
+             margin:0;
+
+               
+           }
+
+           .bg-red{
+               background-color: red;
+           }
+
+           .bg-blue{
+               background-color: blue;
+           }
+           .retangulo{
+            width: 100px;
+               height: 500px;
+               position:absolute; 
+               margin-top: 70px;
+               background-color: teal;
+           }
+           .stick{
+    position:sticky;
+         
+top:0;
+    
+}
+       </style>
+       <div class="relative quadrado bg-blue">
+
+        
+       </div>
+       <div class="relative quadrado bg-red">
+
+        <div class="relative quadrado bg-red">
+
+            <div class="retangulo">
+                <div class="sticky quadrado bg-blue">
+
+    </div>
+</body>
+</html>

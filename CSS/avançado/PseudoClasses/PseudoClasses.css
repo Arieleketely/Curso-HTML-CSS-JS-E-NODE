@@ -1,0 +1,23 @@
+/*coloca  letraem vermelho do input usado*/
+input:focus{
+    color:red;
+}
+/*pega o primeiro filho com tag li*/
+li:first-child{
+    color:blue;
+}
+li:nth-child(2){
+    background-color:crimson;
+}
+li:nth-last-child(1){
+    background-color:darkcyan;
+}
+/*colorir pares*/
+
+li:nth-of-type(even){
+    background-color:darkred;
+}
+/*colorir impares*/
+li:nth-of-type(odd){
+    background-color:gold;
+}

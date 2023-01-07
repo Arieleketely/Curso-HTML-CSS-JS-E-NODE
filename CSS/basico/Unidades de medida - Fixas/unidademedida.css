@@ -1,0 +1,43 @@
+/*cor de fundo:*/
+*{
+    background-color: coral;
+}
+/*classe:*/
+.Paragrafo{
+    color:red;
+    }
+    /*id:*/
+    #idexemplo{
+         /*vermelho,verde,blue:*/
+        background-color:rgb(131,111,255);
+        }
+        .cm{
+            background-color: red;
+            width: 1cm;
+            height:1cm;
+        }
+        .mm{
+            background-color:blue;
+            width: 1cm;
+            height:1cm;
+        }
+        .in{
+            background-color:darkgreen;
+            width: 1cm;
+            height:1cm;
+        }
+        .px{
+            background-color:darkmagenta;
+            width: 1cm;
+            height:1cm;
+        }
+        .pt{
+            background-color:darkred;
+            width: 10pt;
+            height:10pt;
+        }
+        .pc{
+            background-color:blue;
+            width: 1cm;
+            height:1cm;
+        }

@@ -1,0 +1,19 @@
+body{
+      /*para dentro*/
+    padding:0;
+      /*para fora*/
+    margin:0;
+}
+.conteiner{
+      /*cor de fundo*/
+    background-color: red;
+    padding:5px;
+    
+    border:5px solid blue;
+    margin:10px;
+}
+.content{
+    background-color: #ddd;
+    border:5px solid green;
+    margin:5px;
+}

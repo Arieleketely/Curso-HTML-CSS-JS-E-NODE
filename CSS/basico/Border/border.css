@@ -1,0 +1,39 @@
+.b1{
+    /*espressura:*/
+    border-width:10px;
+  /*estilo:*/
+    border-style:solid;
+      /*cor:*/
+      border-color:darkviolet;
+}
+
+.b2{
+    /*espressura borda superior,direita e esquerda:*/
+    border-top-width:10px;
+    border-left-width:30px;
+    border-right-width:15px;
+    
+     /*Estilo de borda superior:*/
+     border-top-style:groove;
+
+       /*Estilo de borda esquerda:*/
+     border-left-style:solid;
+ 
+       /*Estilo de borda esquerda:*/
+       border-right-style:double;
+
+
+      /*cor:*/
+      border-top-color:red;
+      border-left-color:blue;
+      border-right-color:green;
+}
+.b3{ 
+   border-width:60px;
+
+    width: 100px;
+height: 100px;
+background-color: dodgerblue;
+   border-radius: 50%;
+ 
+}

@@ -1,0 +1,19 @@
+   /*Criando a animação:*/
+@keyframes changeColor {
+       /*inicio:*/
+    from{background-color: red;}
+       /*fim:*/
+        to{background-color: blue;}
+
+    
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+       /*dizendo qual sera a animação uzada:*/
+    animation-name: changeColor;
+       /*dizendo a duração da animação:*/
+       animation-duration:3s;
+}

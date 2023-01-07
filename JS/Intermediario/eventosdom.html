@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function h1clicou(){
+            console.log("entrou na função");
+        }
+        function nova1(){
+          
+           //retorna o nome da tag 
+            let h1=document.getElementsByTagName("h1")[0]
+        
+           console.log(h1);
+   
+        }
+
+
+
+        function nova2(){
+            //retorna o elemento do id
+            let input=document.getElementById("texto");
+           
+           //retorna o nome da tag 
+            let h1=document.getElementsByTagName("h1")[0];
+           //retorna o texto
+           h1.innerText=input.value;
+
+        }
+
+
+
+
+
+        function nova3(input){
+          
+           //retorna o nome da tag 
+            let h1=document.getElementsByTagName("h1")[0];
+        
+           h1.innerText=input.value;
+
+        }
+
+
+
+
+        function nova4(){
+            //retorna o elemento do id
+            let input=document.getElementById("texto");
+           
+           //retorna o nome da tag 
+            let h1=document.getElementsByTagName("h1")[0];
+        
+           h1.innerContent=input.value;
+
+        }
+
+
+
+        function onOver(elemento){
+          elemento.style.backgroundColor="red";
+        }
+    </script>
+    <style>
+        div{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body onload="console.log('Pagina Carregada')">
+   
+    <h1 onclick="console.log('clicou')">Clique em mim</h1>
+    <h1 onclick="h1clicou()">Clique em mim</h1>
+    <h1 onclick="this.style.color='red'">Clique em mim</h1>
+    <input  type="text" onchange="nova1()">
+    <input id="texto" type="text" onchange="nova2()">
+    <input type="text" onchange="nova3(this)">
+    <input type="text" oninput="nova3(this)">
+    <div onmousemove="onOver(this)">click</div>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/NovoCSS.CSS">
+    <p>Resumo de Flexbox:</p>
+    <p>Flex Container:</p>
+    <p>1) Display:  display: flex e flex-wrap: wrap:</p>
+    <section class="container flex">
+        <div><a href="#"></a><img src="img/tree-736885_1280.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-276014_640.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-736885_1280.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-276014_640.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-736885_1280.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-276014_640.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-736885_1280.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-276014_640.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-736885_1280.jpg" ></a></div>
+        <div><a href="#"></a><img src="img/tree-276014_640.jpg" ></a></div>
+   
+    </section>
+   <p>2) Flex direction:</p>
+   <section class="containerum row-reverse">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum row">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+<section class="containerum column-reverse">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum column">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum column-reverse">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+<p>3) flex-flow</p>
+<section class="containerum row-nowrap">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+<section class="containerum column-nowrap ">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+<section class="containerum row-wrap">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+<p>4)Justify-Content:</p>
+
+<section class="containerum flex-start">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum flex-end">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum center">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum justify-content: space-between">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+<p>5)Align-items:</p>
+
+<section class="containerum stretch ">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum flex-start">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum flex-end">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum center ">
+    <div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<section class="containerum baseline">
+	<div>1</div>
+	<div >2</div>
+	<div>3</div>
+</section>
+
+<p>Flex Item:</p>
+<p>1)flex-grow:</p>
+
+<h1>flex-grow: 0;</h1>
+<section class="container3">
+	<div class="item grow0">1</div>
+	<div class="item grow0">2</div>
+	<div class="item grow0">3</div>
+</section>
+<h1>flex-grow 0 e 1</h1>
+<section class="container3">
+	<div class="item grow1">1</div>
+	<div class="item grow0">2</div>
+	<div class="item grow1">3</div>
+</section>
+<p>2)Flex-basis:</p>
+<section class="container4">
+	<div class="item basis-auto">Palavra 1</div>
+	<div class="item basis-auto">2</div>
+	<div class="item basis-auto-grow-2">3</div>
+	<div class="item basis-auto-width">4</div>
+	<div class="item basis-auto-grow-0">5</div>
+    <div class="item basis-auto flex-basis">6</div>
+</section>
+}
+3)	flex-shrink:
+<section class="container5">
+	<div class="box1">A</div>
+	<div class="box2">D</div>
+
+</section>
+<P>Mais  UTILIZANDO OUTRO CSS:</P>
+4)Flex-box ordem
+<section class="container5">
+	<div class="item order2">1</div>
+	<div class="item order4">2</div>
+	<div class="item order1">3</div>
+	<div class="item order3">4</div>
+
+</section>
+
+3)Grid templite
+4)Grid templaite area
+5)Align Itens
+6)Align Content
+
+8)Flexbox ordem
+9)Align Self
+<h1>align-self: multiplos;</h1>
+<section class="container">
+	<div class="item flex-end">1</div>
+	<div class="item flex-start">Teste 2 do Item</div>
+	<div class="item">Teste 3 do Item Agora Mesmo Esse Mesmo.</div>
+	<div class="item center">Teste 4</div>
+</section>
+
+<h1>align-self: multiplos;</h1>
+<section class="container">
+	<div class="item baseline">1</div>
+	<div class="item baseline">Teste 2 do Item</div>
+	<div class="item">Teste 3 do Item Agora Mesmo Esse Mesmo.</div>
+	<div class="item center">Teste 4</div>
+</section>
+
+<h1>align-self: stretch; // align-items: flex-end;</h1>
+<section class="container align-items">
+	<div class="item">1</div>
+	<div class="item stretch">Teste 2 do Item</div>
+	<div class="item">Teste 3 do Item Agora Mesmo Esse Mesmo.</div>
+	<div class="item">Teste 4</div>
+</section>
+
+<h1>align-self: multiplos;</h1>
+<section class="container column">
+	<div class="item flex-end">1</div>
+	<div class="item flex-start">Teste 2 do Item</div>
+	<div class="item">Teste 3 do Item Agora Mesmo Esse Mesmo.</div>
+	<div class="item center">Teste 4</div>
+</section>
+
+<h1>align-self: multiplos;</h1>
+<section class="container column">
+	<div class="item baseline">1</div>
+	<div class="item baseline">Teste 2 do Item</div>
+	<div class="item">Teste 3 do Item Agora Mesmo Esse Mesmo.</div>
+	<div class="item center">Teste 4</div>
+</section>
+
+<h1>align-self: stretch; // align-items: flex-end;</h1>
+<section class="container column align-items">
+	<div class="item">1</div>
+	<div class="item stretch">Teste 2 do Item</div>
+	<div class="item">Teste 3 do Item Agora Mesmo Esse Mesmo.</div>
+	<div class="item">Teste 4</div>
+</section>
+10)Grid Gap
+
+<div class="grid-gap">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+  </div>
+
+
+11)Grid Justify e Align Itens
+
+
+<div class="grid-gapdois">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+  </div>
+  <br>
+  <div class="grid-gaptres">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+  </div>
+
+
+</head>
+<body>
+    
+</body>
+</html>

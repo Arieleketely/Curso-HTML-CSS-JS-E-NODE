@@ -1,0 +1,13 @@
+/*cor de fundo:*/
+*{
+    background-color: coral;
+}
+/*classe:*/
+.Paragrafo{
+    color:red;
+    }
+    /*id:*/
+    #idexemplo{
+         /*vermelho,verde,blue:*/
+        color:rgb(131,111,255);
+        }
