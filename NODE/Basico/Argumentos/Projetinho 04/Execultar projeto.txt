@@ -1,0 +1,2 @@
+ node script.js m 10 20
+ node script.js s 10 20
